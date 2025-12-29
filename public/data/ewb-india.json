@@ -1,0 +1,15 @@
+{
+  "name": "Engineers Without Borders – India",
+  "whoWeAre": "We are a non-profit NGO dedicated to helping economically weaker sections of society and encouraging engineering students to become humanitarian engineers. Through professional and student chapters, we take up projects addressing key UN Sustainable Development Goals.",
+  "mission": "Partner with corporate and social organizations, involve students and professionals, and offer sustainable solutions in the areas of Water, Sanitation, Energy, Health and Education to improve quality of life for common people.",
+  "vision": "Nurture and motivate students and professionals to undertake real-life sustainable social projects and create global leaders.",
+  "sdgs": [
+    {"id": 4, "label": "Quality Education"},
+    {"id": 5, "label": "Gender Equality"},
+    {"id": 6, "label": "Clean Water & Sanitation"},
+    {"id": 9, "label": "Industry, Innovation & Infrastructure"}
+  ],
+  "affiliation": "Affiliated with Engineers Without Borders – International.",
+  "sourceUrl": "https://www.ewb-india.org/",
+  "attributionText": "Source: Engineers Without Borders – India (public website)."
+}
