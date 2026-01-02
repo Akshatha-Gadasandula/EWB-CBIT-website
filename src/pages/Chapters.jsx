@@ -1,6 +1,6 @@
 export default function Chapters() {
   return (
-    <section className="section">
+  <section className="section chapters-bg">
       <div className="container">
         <h2>Chapters</h2>
 

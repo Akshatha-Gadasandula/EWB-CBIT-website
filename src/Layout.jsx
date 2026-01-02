@@ -15,8 +15,8 @@ export default function Layout() {
       <header className="site-header">
         <div className="container header-inner">
           <div className="brand">
-            <div className="brand-mark" aria-hidden="true">
-              EWB
+            <div className="brand-mark">
+              <img src="/images/logo.png" alt="EWB CBIT logo" className="brand-logo" />
             </div>
             <div>
               <div className="brand-title">{chapter?.chapterName || 'EWB CBIT'}</div>
@@ -32,10 +32,9 @@ export default function Layout() {
             <NavLink to="/join">Join</NavLink>
             <NavLink to="/activities">Activities</NavLink>
             <NavLink to="/chapters">Chapters</NavLink>
-            <NavLink to="/chapter">Chapter</NavLink>
+            <NavLink to="/chapter">CBIT - Chapter</NavLink>
             <NavLink to="/donors">Donors</NavLink>
             <NavLink to="/donate">Donate</NavLink>
-            <NavLink to="/downloads">Downloads</NavLink>
             <NavLink to="/contact">Contact</NavLink>
           </nav>
         </div>
@@ -50,9 +49,7 @@ export default function Layout() {
           <p className="tiny muted">
             Instagram: <a href={instagramProfileUrl} target="_blank" rel="noreferrer">@ewbcbit</a>
           </p>
-          <p className="tiny muted">
-            This is an independent chapter website. Content summarized from public sources is attributed on the relevant pages.
-          </p>
+          {/* footer note removed per request */}
         </div>
       </footer>
     </>

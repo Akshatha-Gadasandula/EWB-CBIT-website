@@ -1,0 +1,144 @@
+{
+  "2025": [
+    {
+      "id": "2025-e1",
+      "title": "AI and Academics Workshop",
+      "description": "EWB CBIT successfully conducted a student-friendly workshop on AI & Academics at Government High School, Gandhi Bhavan. The day concluded with an engaging quiz and a memorable prize distribution ceremony, inspiring students towards a future of learning and technology.",
+      "images": ["/images/2025-e1.png"]
+    },
+    {
+      "id": "2025-e2",
+      "title": "Lantern Festival",
+      "description": "EWB-CBIT proudly presents the Lantern Festival – an enchanting evening where dreams take flight and the sky glows with hope and celebration. We come together to illuminate the night with thousands of lanterns, each carrying wishes, dreams, and the spirit of togetherness.",
+      "images": ["/images/2025-e2.png"]
+    },
+    {
+      "id": "2025-e3",
+      "title": "International Education Day",
+      "description": "Our mission to assess the effectiveness of EWB India’s E-Learning Centers led us to Red Cross Government High School and Kasturba Gandhi Balika Vidyalaya.",
+      "images": ["/images/2025-e3.png"]
+    },
+    {
+      "id": "2025-e4",
+      "title": "Donation Drive",
+      "description": "EWB CBIT joined hands with the amazing communities at Rajapushpa Regalia and Earthwoods, Kokapet to make a difference. We collected books, clothing, blankets, and so much more and donated to Radha Krishna Balika Bhavan.",
+      "images": ["/images/2025-e4.png"]
+    }
+  ],
+  "2024": [
+    {
+      "id": "2024-e1",
+      "title": "Career Guidance Seminar",
+      "description": "EWB-CBIT had visited the Government High School in Manikonda, to provide a Career Guidance Seminar for 9th and 10th students. Over 600 students were a part of this program, where they were provided with detailed information to help them pursue their dream careers.",
+      "images": ["/images/2024-e1.png"]
+    },
+    {
+      "id": "2024-e2",
+      "title": "Book Donation Drive",
+      "description": "The Book Donation Drive was conducted to promote education and knowledge sharing. EWB members collected books from college students and donated them to schools and community centers, helping extend learning opportunities beyond classrooms.",
+      "images": ["/images/2024-e2.png"]
+    },
+    {
+      "id": "2024-e3",
+      "title": "Game of Rounds",
+      "description": "EWB-CBIT is proud to present The Game of Rounds, an adrenaline filled event, inspired by the popular TV show Squid Games. All funds collected will be donated to the Learning Space Foundation!",
+      "images": ["/images/2024-e3.png"]
+    }
+  ],
+  "2023": [
+    {
+      "id": "2023-e1",
+      "title": "SustainOrate",
+      "description": "SustainOrate: Articulating a Greener World is an elocution contest organized by EWB–CBIT that provides a platform for students to express their ideas and perspectives on sustainability and environmental responsibility. The event encourages participants to use the power of words to inspire awareness and action towards a greener, more sustainable future.",
+      "images": ["/images/2023-e1.png"]
+    },
+    {
+      "id": "2023-e2",
+      "title": "Earth Day Art Project",
+      "description": "The Earth Day Art Project is an initiative that invites participants to express their love for the planet through creative artwork. The event encourages showcasing the beauty of nature while spreading awareness about sustainability and environmental protection.",
+      "images": ["/images/2023-e2.png"]
+    },
+    {
+      "id": "2023-e3",
+      "title": "Village Visit",
+      "description": "The EWB–CBIT Village Visit, held on 25-03-2023, aimed to understand and identify key challenges faced by local communities. During visits to Gudupally, Burgupally, Dhyachaaram, Gottimukla, Peerampally, and Pathur, team members interacted with villagers and identified areas for improvement such as organizing health camps, improving street lighting, and installing CCTV cameras.",
+      "images": ["/images/2023-e3.png"]
+    },
+    {
+      "id": "2023-e4",
+      "title": "Book Donation Drive",
+      "description": "The Book Donation Drive was conducted to promote education and knowledge sharing. EWB members collected books from college students and donated them to schools and community centers, helping extend learning opportunities beyond classrooms.",
+      "images": ["/images/2023-e4.png"]
+    },
+    {
+      "id": "2023-e5",
+      "title": "Visit to Vaidehi Ashram",
+      "description": "EWB CBIT visited Vaidehi Ashram in Saidabad on 13th January 2023. We distributed blankets and daily necessities to the children and judged a rangoli competition held that day.",
+      "images": ["/images/2023-e5.png"]
+    }
+  ],
+  "2022": [
+    {
+      "id": "2022-e1",
+      "title": "National Cancer Awareness Day - Movie Screening",
+      "description": "On 7/02/2022, on account of National Cancer Awareness Day movie screening event was conducted by EWB-CBIT team. Movies like Dil Bechara and Geetanjali were screened for students to bring awareness about cancer. Ticket proceeds were donated to MNJ Hospital. Many staff and students supported the cause.",
+      "images": ["/images/2022-e1.png"]
+    },
+    {
+      "id": "2022-e2",
+      "title": "Mini Library",
+      "description": "On 22-10-22, students from Team EWB-CBIT visited ZPHS Manikonda and arranged a mini-library. Around 90 books were donated including guides, puzzles, novels and story books. The event concluded with an interaction session on career counselling.",
+      "images": ["/images/2022-e2.png"]
+    },
+    {
+      "id": "2022-e3",
+      "title": "Career Guidance and Awareness on Menstrual Cycle",
+      "description": "An interactive session covering career guidance after 10th standard and menstrual health awareness. Sanitary napkins were distributed and hygiene importance was discussed.",
+      "images": ["/images/2022-e3.png"]
+    },
+    {
+      "id": "2022-e4",
+      "title": "IdeaMela",
+      "description": "IDEAMELA showcased project ideas related to sustainable development and real-world solutions. Members presented and discussed ideas in an interactive session.",
+      "images": ["/images/2022-e4.png"]
+    },
+    {
+      "id": "2022-e5",
+      "title": "National Youth Day - Tarunah",
+      "description": "“TARUNAH” (#YOUthCAN) celebrated National Youth Day with rounds like 'One Day Prime Minister' and group discussions. Winners received cash prizes and all participants got certificates.",
+      "images": ["/images/2022-e5.png"]
+    }
+  ],
+  "2021": [
+    {
+      "id": "2021-e1",
+      "title": "Helping Hands",
+      "description": "As part of 'HELPING HANDS', we donated sanitizers and masks to Anganwadi and primary schools in Meerpet mandal (Rangareddy). Teachers and headmasters participated; we ran a demo on sanitizer use and advised on necessary steps.",
+      "images": ["/images/2021-e1.png"]
+    },
+    {
+      "id": "2021-e2",
+      "title": "Serving Smiles",
+      "description": "We visited Cherish Home for Girls orphanage, played games, shared a meal, and gifted crayons and color pencils. It was a memorable day spent entertaining and encouraging the children.",
+      "images": ["/images/2021-e2.png"]
+    },
+    {
+      "id": "2021-e3",
+      "title": "Book Donation Drive",
+      "description": "The Book Donation Drive promoted education and knowledge sharing; members collected books from college students and donated them to schools and community centers.",
+      "images": ["/images/2021-e3.png"]
+    },
+    {
+      "id": "2021-e4",
+      "title": "Visit to Akshaya Patra Foundation",
+      "description": "We visited the Akshaya Patra kitchen at Kandi (Sangareddy), observed operations and volunteered; it provided insight into large-scale cooking, hygiene, and the role of youth in service.",
+      "images": ["/images/2021-e4.png"]
+    },
+    {
+      "id": "2021-e5",
+      "title": "Through the Perplexity",
+      "description": "An interactive session for students who completed 12th covering EAMCET, JEE Main/Advanced, BITSAT, JoSAA counselling, branch vs college, spot admissions, and fee reimbursement. We clarified doubts and motivated students.",
+      "images": ["/images/2021-e5.png"]
+    }
+  ]
+}

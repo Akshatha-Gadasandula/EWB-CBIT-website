@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import EventsList from '../components/EventsList'
 
-export default function Chapter() {
+export default function EventsPage() {
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -31,7 +31,7 @@ export default function Chapter() {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="about-heading">EWB - CBIT Chapter</h2>
+        <h2>Year-wise Events</h2>
 
         {loading ? (
           <p className="muted">Loading events…</p>

@@ -5,12 +5,12 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
+      <section className="hero home-bg">
         <div className="container hero-inner">
           <div className="hero-copy">
             <h1 className="hero-title">Build sustainable change, together.</h1>
             <p className="hero-lede">
-              A multi-page chapter website aligned with Engineers Without Borders — India.
+              Alone we can do little; together we can do so much.
             </p>
             <div className="hero-cta">
               <a className="button primary" href="/chapter">View CBIT Chapter</a>
@@ -24,11 +24,11 @@ export default function Home() {
           <div className="hero-card" role="region" aria-label="EWB India snapshot">
             <div className="kv">
               <div className="kv-label">Organization</div>
-              <div className="kv-value">{ewbIndia?.name || 'Engineers Without Borders – India'}</div>
+              <div className="kv-value"> Engineers Without Borders – CBIT</div>
             </div>
             <div className="kv">
               <div className="kv-label">Affiliation</div>
-              <div className="kv-value">{ewbIndia?.affiliation || 'Affiliated with EWB-International'}</div>
+              <div className="kv-value">Affiliated with EWB-India</div>
             </div>
             <div className="kv">
               <div className="kv-label">Source</div>
@@ -38,10 +38,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="kv">
-              <div className="kv-label">Status</div>
-              <div className="kv-value">{loading ? 'Loading…' : 'Ready'}</div>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -52,6 +49,7 @@ export default function Home() {
           <p className="muted">
             {ewbIndia?.whoWeAre || 'Loading…'}
           </p>
+          <br />
 
           <div className="grid-2">
             <div className="card">
@@ -62,6 +60,10 @@ export default function Home() {
               <h3>Vision</h3>
               <p className="muted">{ewbIndia?.vision || 'Loading…'}</p>
             </div>
+          </div>
+          <br />
+          <div style={{ textAlign: 'center', marginBottom: 12 }}>
+          <img src="/images/about-sdg.png" alt="Sustainable Development Goals" style={{ maxWidth: '100%', height: 'auto' }} />
           </div>
 
           <div className="card" style={{ marginTop: 16 }}>

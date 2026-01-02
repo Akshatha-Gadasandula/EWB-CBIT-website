@@ -22,7 +22,6 @@ Open the URL Vite prints (usually http://localhost:5173).
 - `/chapter` (CBIT chapter + Instagram embeds)
 - `/donors`
 - `/donate`
-- `/downloads`
 - `/contact`
 
 ## Configure content

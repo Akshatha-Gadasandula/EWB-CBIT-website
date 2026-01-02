@@ -9,7 +9,6 @@ import Activities from './pages/Activities.jsx'
 import Chapters from './pages/Chapters.jsx'
 import Donors from './pages/Donors.jsx'
 import Donate from './pages/Donate.jsx'
-import Downloads from './pages/Downloads.jsx'
 import Contact from './pages/Contact.jsx'
 import NotFound from './pages/NotFound.jsx'
 
@@ -27,7 +26,6 @@ export default function App() {
             <Route path="/chapter" element={<Chapter />} />
             <Route path="/donors" element={<Donors />} />
             <Route path="/donate" element={<Donate />} />
-            <Route path="/downloads" element={<Downloads />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Route>

@@ -52,17 +52,40 @@ a{color:inherit}
   border:1px solid var(--border);
   font-weight:700;
 }
+/* Logo image when present inside .brand-mark */
+.brand-mark img, .brand-logo{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  border-radius:inherit;
+}
 .brand-title{font-weight:700; letter-spacing:.2px;}
 .brand-subtitle{font-size:12px; color:var(--muted)}
 
-.nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end;}
+.nav{
+  display:flex;
+  gap:14px;
+  /* keep nav items on one line */
+  flex-wrap:nowrap;
+  justify-content:flex-end;
+  /* allow horizontal scrolling on small viewports instead of wrapping */
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
 .nav a{
   text-decoration:none;
   padding:8px 10px;
   border-radius:10px;
   border:1px solid transparent;
   color:var(--muted);
+  /* ensure each link doesn't wrap */
+  white-space:nowrap;
 }
+/* visually hide scrollbars but keep scrollability */
+.nav::-webkit-scrollbar{ height:6px }
+.nav::-webkit-scrollbar-thumb{ background: rgba(11,18,32,.08); border-radius:6px }
+.nav{ scrollbar-width:thin; -ms-overflow-style:auto }
 .nav a.active{
   border-color: var(--border);
   color: var(--text);
@@ -118,6 +141,82 @@ h3{margin:0 0 8px; font-size:16px;}
 
 .insta-grid{display:grid; grid-template-columns: 1fr 1fr; gap:16px;}
 
+/* About page carousel and content tweaks */
+.about-carousel{
+  background: linear-gradient(180deg, rgba(223,248,232,1), rgba(228,252,238,1));
+  border-radius:12px;
+  border:1px solid var(--border);
+  position:relative; overflow:hidden;
+}
+
+/* Decorative background image for the About carousel (faint, non-interactive) */
+.about-carousel::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('https://jeevanlok.org/assets/img/slider-4.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.12; /* adjust for desired faintness */
+  pointer-events: none;
+  z-index: 0;
+}
+.about-carousel > *{ position:relative; z-index:1 }
+
+.about-content{
+  max-width:900px;
+  margin:0 auto;
+  text-align:center;
+}
+
+/* About page heading */
+.about-heading{
+  text-align: center;
+  font-size: 32px;
+  margin: 0 0 14px;
+  letter-spacing: -0.4px;
+}
+
+@media (max-width: 860px){
+  .about-heading{ font-size: 24px; }
+}
+
+/* Decorative background for About page: faint EWB logo */
+.about-bg{ position:relative; overflow:hidden }
+.about-bg::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* external logo provided by user */
+  background-image: url('https://git.edu/wp-content/uploads/2023/06/ewb-logo-150x150-1.jpeg');
+  background-repeat: no-repeat;
+  /* position and size tuned for header-like placement */
+  background-position: center 36px;
+  background-size: 150px 150px;
+  opacity: 0.06; /* very low opacity - adjust as needed */
+  pointer-events: none;
+  z-index: 0;
+}
+.about-bg > .container{ position:relative; z-index:1 }
+
+/* Events components styles */
+.year-header{display:flex; align-items:center; justify-content:space-between; margin-bottom:12px}
+.year-header h3{margin:0; font-size:20px}
+.events-grid{display:grid; grid-template-columns:1fr; gap:16px}
+@media (min-width: 600px){
+  .events-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width: 1100px){
+  .events-grid{grid-template-columns:repeat(3,1fr)}
+}
+
+.event-card{background: rgba(255,255,255,.95); border:1px solid var(--border); border-radius:12px; overflow:hidden}
+.event-image{width:100%; height:200px; background:#f2f7f4; display:block; overflow:hidden}
+.event-image img{width:100%; height:100%; object-fit:cover; display:block}
+.event-title{font-size:16px; font-weight:600; color:var(--text)}
+
+
 .link-list{margin:0; padding-left:18px; color:var(--muted)}
 .link-list a{color:var(--text)}
 
@@ -135,6 +234,70 @@ h3{margin:0 0 8px; font-size:16px;}
   margin-right: 6px;
 }
 
+/* Members grid and cards */
+.members-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:12px; align-items:start}
+@media (min-width: 900px){
+  .members-grid{grid-template-columns:repeat(4,1fr)}
+}
+.member-card{background: rgba(255,255,255,.95); border:1px solid var(--border); border-radius:10px; /* allow full image to show */ overflow:visible; text-align:center; padding:8px}
+.member-card img{width:100%; height:auto; object-fit:contain; display:block; border-radius:8px}
+.member-name{margin-top:8px; font-weight:600; font-size:14px}
+
+/* Members heading styling */
+.members-heading{
+  text-align:center;
+  font-size:28px;
+  margin:12px 0 18px;
+  letter-spacing: -0.2px;
+}
+@media (max-width: 860px){
+  .members-heading{ font-size:22px; }
+}
+
+/* Member subheadings (Core / Executive / Senior) */
+.members-subheading{
+  font-size:20px;
+  margin-top:12px;
+  margin-bottom:8px;
+  font-weight:700;
+  color:var(--text);
+}
+@media (max-width: 860px){
+  .members-subheading{ font-size:18px; }
+}
+
+/* Decorative background for Chapters page */
+.chapters-bg{ position:relative; overflow:hidden }
+.chapters-bg::before{
+  content: "";
+  position:absolute;
+  inset:0;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpJDsuMOFFalDMPaBNYGs24vdIoB3rc3Z7w&s");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.12; /* faint decorative image */
+  z-index: 0;
+  pointer-events: none;
+}
+.chapters-bg > .container{ position:relative; z-index:1 }
+
+/* Decorative background for Contact page */
+.contact-bg{ position:relative; overflow:hidden }
+.contact-bg::before{
+  content: "";
+  position:absolute;
+  inset:0;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSge-qxbmJWKBRFcNJ0wtTU0P1-LeaDdTX1Og&s");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.12; /* faint decorative image */
+  z-index: 0;
+  pointer-events: none;
+}
+.contact-bg > .container{ position:relative; z-index:1 }
+
 .error{
   margin: 12px 0 0;
   color: #ffd1d1;
@@ -147,3 +310,19 @@ h3{margin:0 0 8px; font-size:16px;}
   .insta-grid{grid-template-columns: 1fr;}
   .hero-title{font-size:32px;}
 }
+
+/* Decorative Home hero background image (low opacity) */
+.home-bg{ position:relative; overflow:hidden }
+.home-bg::before{
+  content: "";
+  position:absolute;
+  inset:0;
+  background-image: url('https://jeevanlok.org/assets/img/slider-4.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.14; /* reduce visibility so content remains readable */
+  z-index: 0;
+  pointer-events: none;
+}
+.home-bg > .container{ position:relative; z-index:1 }

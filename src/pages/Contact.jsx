@@ -4,14 +4,14 @@ export default function Contact() {
   const { chapter } = useSiteData()
 
   return (
-    <section className="section alt">
+    <section className="section alt contact-bg">
       <div className="container">
         <h2>Contact</h2>
         <div className="grid-2">
           <div className="card">
             <h3>Chapter Email</h3>
             <p className="muted">
-              {chapter?.email ? <a href={`mailto:${chapter.email}`}>{chapter.email}</a> : 'Add email in public/config/chapter.json'}
+              {chapter?.email ? <a href={`mailto:${chapter.email}`}>{chapter.email}</a> : 'ewbcbit@gmail.com'}
             </p>
           </div>
           <div className="card">
